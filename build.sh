@@ -17,4 +17,5 @@ rm -rf $build_dir
 mkdir -p $build_dir
 
 cp ~/.zshrc $build_dir/pluginrc.zsh
+cp ~/.p10k.zsh $build_dir/p10k.zsh
 
