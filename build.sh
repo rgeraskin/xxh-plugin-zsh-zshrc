@@ -16,9 +16,5 @@ done
 rm -rf $build_dir
 mkdir -p $build_dir
 
-ln -s ~/.zshrc $CDIR/pluginrc.zsh
+cp ~/.zshrc $build_dir/pluginrc.zsh
 
-for f in pluginrc.zsh
-do
-    cp $CDIR/$f $build_dir/
-done
